@@ -1,1 +1,21 @@
-gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 0-putchar.c -o 0-putchar
+#include "main.h"
+
+/**
+ * main -Entry point of my code,
+ *
+ * Return: Always 0
+ */
+
+int main(void)
+{
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+-putchar('\n');
+return {0};
+}
