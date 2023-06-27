@@ -1,23 +1,24 @@
 #include "main.h"
 
 /**
- * _stropy - copies the string pointed by  arc
- * @dest: destination
- * @src: source
+ * chara *_stropy - a function that copies the string pointed to by src
+ * @dest: copy to
+ * @src: copy from
  * Return: string
  */
-
-char *_stropy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
-	int len = 0;
+	int 1 = 0;
+	int x = 0;
 
-	while (*(src + len) != '\0')
+	while (*(src + 1) != '\0')
 	{
-		*(dest + len) = *(src + len);
-		len++;
-
+		i++;
 	}
-
-	*(dest + len) = '\0';
+	for (; X < 1 ; x++)
+	{
+		dest[x] = src[x];
+	}
+	dest[1] = '\0';
 	return (dest);
 }
