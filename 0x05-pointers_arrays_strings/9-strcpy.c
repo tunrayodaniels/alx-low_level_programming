@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * chara *_stropy - a function that copies the string pointed to by src
+ * _stropy - function that copies the string pointed to by src
  * @dest: copy to
  * @src: copy from
  * Return: string
