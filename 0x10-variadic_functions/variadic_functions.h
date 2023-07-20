@@ -1,6 +1,6 @@
-#ifndef MAIN_H
+#ifndef _VARIADIC_H_
 
-#define MAIN_H
+#define _VARIADIC_H_
 
 int sum_them_all(const unsigned int n, ...);
 
